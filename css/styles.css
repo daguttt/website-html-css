@@ -5,14 +5,14 @@
     font-family: "Roboto", sans-serif;
 }
 :root {
-    --gold1: #f4bd76;
-    --gold2: #f6cd8f;
+    --watergreen1: #55B49E;
+    --watergreen2: #63BBA6;
     --gray1: #ffffff80;
     --gray2: #f7d9d990;
     --black1: #1a1b1f;
     --black2: #30353b;
-    --shadow: 0 8px 8px;
     --color_shadow: #00000033;
+    --white: #f4f4f4;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 }
 .point {
     font-weight: 700;
-    color: var(--gold2);
+    color: var(--watergreen2);
     font-size: 1.5rem;
 }
 img {
@@ -36,9 +36,10 @@ img {
 }
 .gold-button {
     background: linear-gradient(
-        var(--gold2) 0%,
-        var(--gold1) 50%,
-        var(--gold1) 100%
+        var(--watergreen2) 0%,
+        var(--watergreen2) 30%,
+        var(--watergreen1) 60%,
+        var(--watergreen1) 100%
     );
     border-radius: 0.375rem;
     padding: 1.25rem 1.875rem;
@@ -46,7 +47,7 @@ img {
     margin-top: 0.75rem;
     text-decoration: none;
     font-weight: 700;
-    color: var(--black2);
+    color: var(--white);
     text-align: center;
 }
 
@@ -101,7 +102,7 @@ img {
     font-weight: 700;
     margin: 0 0.9375rem;
     text-decoration: none;
-    color: var(--gold1);
+    color: var(--watergreen1);
 }
 /* ================================================================= */
 
@@ -136,7 +137,7 @@ img {
 }
 .text-header__title small {
     font-size: 3.6rem;
-    color: var(--gold1);
+    color: var(--watergreen1);
     font-weight: 700;
 }
 /* ============================== */
@@ -214,7 +215,7 @@ img {
 }
 /* Cards main - card text subtitle */
 .card__text-subtitle {
-    color: var(--gold2);
+    color: var(--watergreen2);
     font-size: 1.125rem;
     font-weight: 700;
 }
@@ -473,6 +474,7 @@ img {
     font-size: 1.125rem;
     font-weight: 700;
     background-color: transparent;
+    margin-bottom: 1.25rem;
 }
 .stores i {
     font-size: 2.5rem;
@@ -485,9 +487,11 @@ img {
 .app a {
     color: var(--black2);
     text-decoration: none;
+    text-shadow: 0 2px 3px var(--color_shadow);
 }
 .app a:hover {
     text-decoration: underline;
+    text-shadow: none;
 }
 /* JOIN US */
 .form-contact-information {
@@ -524,10 +528,10 @@ img {
     font-weight: 700;
 }
 .footer__contact-box i {
-    color: var(--gold1);
+    color: var(--watergreen1);
 }
 .footer__contact-button {
-    background: linear-gradient(var(--gold2) 0%, var(--gold1) 100%);
+    background: linear-gradient(var(--watergreen2) 0%, var(--watergreen1) 100%);
     color: var(--black2)
 }
 .footer__contact-button i {
